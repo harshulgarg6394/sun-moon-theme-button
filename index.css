@@ -1,0 +1,24 @@
+.circle-btn {
+    width: 70px; /* Adjust button width */
+    height: 70px; /* Adjust button height */
+    font-size: 30px; /* Adjust icon size */
+    line-height: 70px; /* Vertically center the icon */
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.circle-btn:hover {
+    background-color: darkgray;
+    transform: scale(1.1); /* Add a hover effect */
+}
+
+
+
